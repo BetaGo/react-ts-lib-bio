@@ -1,0 +1,51 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "WanTong <gouwantong@live.com>",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "test": "react-scripts test",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "@svgr/rollup": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "less": "^3.9.0",
+    "less-plugin-npm-import": "^2.1.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "^2.1.5",
+    "rollup": "^1.2.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-less-modules": "^0.1.11",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "rollup-plugin-url": "^2.2.0",
+    "typescript": "^3.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "antd": "^3.13.5",
+    "react-monaco-editor": "^0.23.0"
+  }
+}
